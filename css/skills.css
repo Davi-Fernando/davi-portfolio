@@ -1,0 +1,187 @@
+/*       SKILLS (HARD SKILLS)    */
+.skills {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills-container {
+    width: 100%;
+    max-width: 1200px;
+    text-align: left;
+}
+
+.skills-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #02110B;
+    margin-left: 95px;
+}
+
+.skills-subtitle {
+    font-size: 28px;
+    font-weight: 600;
+    color: #02110B;
+    margin: 40px 0 20px 95px;
+}
+
+/*       CARDS       */
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.skill-card {
+    width: 280px;
+    height: 370px;
+    background: #75BA9F;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s, font-size 0.3s, box-shadow 0.3s;
+}
+
+.skill-card:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.skill-card h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 28px;
+    color: #02110B;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.skill-item {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.skill-item span {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #02110B;
+}
+
+.skill-item img {
+    width: 64px;
+    height: 64px;
+    transition: transform 0.3s;
+}
+
+.skill-card:hover .skill-item img {
+    transform: scale(1.1);
+}
+
+/* ====== SOFT SKILLS ====== */
+.soft-skills {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+}
+
+.soft-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #02110B;
+    margin-left: 70px;
+}
+
+.soft-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 27px 17px;
+    /* Espaçamento entre os cards */
+    margin-top: 100px;
+    justify-content: center;
+}
+
+/*       ESTILO DOS CARDS    */
+.soft-card {
+    width: 438px;
+    height: 197px;
+    background: #08402A;
+    color: #E7FBF3;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.soft-card:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Título dos cards */
+.soft-title-card {
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+/* Texto oculto */
+.soft-text {
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    width: 80%;
+    opacity: 0;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+/* Efeito hover - substitui o título pelo texto */
+.soft-card:hover .soft-title-card {
+    transform: translateY(-30px);
+    opacity: 0;
+}
+
+.soft-card:hover .soft-text {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/*       FONTES DOS TÍTULOS      */
+.roboto {
+    font-family: 'Roboto Slab', serif;
+}
+
+.lora {
+    font-family: 'Lora', serif;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.opensans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}

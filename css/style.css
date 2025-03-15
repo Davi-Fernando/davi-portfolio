@@ -1,0 +1,21 @@
+/*      IMPOTAÇÕES      */
+@import url('navbar.css');
+@import url('home.css');
+@import url('sobre.css');
+@import url('skills.css');
+@import url('projetos.css');
+@import url('contato.css');
+@import url('responsividade.css');
+
+/*       ESTILOS GERAIS      */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+    scroll-behavior: smooth;
+}
+
+section {
+    background-color: #E7FBF3 !important;
+}

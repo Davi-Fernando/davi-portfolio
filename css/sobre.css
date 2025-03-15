@@ -1,0 +1,44 @@
+/*       SOBRE MIM       */
+.sobre {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding: 0 5%;
+}
+
+.sobre-img {
+    width: 40%;
+    height: 100%;
+}
+
+.sobre-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sobre-conteudo {
+    width: 55%;
+    text-align: left;
+}
+
+.sobre-conteudo h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #02110B;
+}
+
+.sobre-conteudo h3 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #02110B;
+    margin-top: 10px;
+}
+
+.sobre-conteudo p {
+    font-size: 22px;
+    font-weight: 300;
+    color: #02110B;
+    margin-top: 15px;
+}

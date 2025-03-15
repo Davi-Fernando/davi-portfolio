@@ -1,0 +1,120 @@
+/*       RESPONSIVIDADE      */
+@media (max-width: 1024px) {
+    .soft-cards-container {
+        justify-content: center;
+        
+    }
+    
+}
+
+@media (max-width: 768px) {
+
+    /* Section home */
+    .home {
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+        padding-top: 50px;
+    }
+
+    .img-a-direita {
+        display: none;
+    }
+
+    .img-a-direita img {
+        width: 250px;
+    }
+
+    /* Section Sobre */
+    .sobre {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 5%;
+    }
+
+    .sobre-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .sobre-conteudo {
+        width: 100%;
+    }
+
+    /* Section hard skills */
+    .skills-title,
+    .skills-subtitle,
+    .soft-title {
+        margin-left: 21px;
+    }
+
+    .cards-container {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .skill-card {
+        flex: 0 0 auto;
+        scroll-snap-align: center;
+        width: 240px;
+        height: 320px;
+        padding: 0px;
+    }
+
+    .skill-card h4 {
+        font-size: 18px;
+    }
+
+    .skill-item span {
+        font-size: 14px;
+    }
+
+    .skill-item img {
+        width: 50px;
+        height: 50px;
+    }
+
+    /* Section soft skills */
+    .soft-skills {
+        padding: 0;
+        justify-content: center;
+    }
+
+    .soft-title {
+        font-size: 30px;
+        margin-left: 30px;
+    }
+
+    .soft-cards-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .soft-card {
+        width: 338px;
+        height: 167px;
+    }
+
+    .soft-title-card {
+        font-size: 18px;
+    }
+
+    .soft-text {
+        font-size: 14px;
+    }
+
+    .carousel-container {
+        width: 90%;
+    }
+
+    .carousel-item {
+        min-width: 250px;
+        padding: 15px;
+    }
+}

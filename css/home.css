@@ -1,0 +1,57 @@
+/*       HOME    */
+.home {
+    background: linear-gradient(to right, #899590, #E7FBF3);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-content {
+    max-width: 600px;
+}
+
+.home h1 {
+    color: #02110B;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.home p {
+    color: #02110B;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.btn-custom {
+    background-color: #08402A;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+}
+
+.btn-custom:hover {
+    background-color: #428B6E;
+}
+
+/* Ajustes para a imagem à direita */
+.img-a-direita {
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+}
+
+.img-a-direita img {
+    width: 500px;
+    /* Ajuste para telas grandes */
+    height: auto;
+}
+
+.home img {
+    width: 650px;
+    height: 600px;
+    object-fit: fill;
+}
