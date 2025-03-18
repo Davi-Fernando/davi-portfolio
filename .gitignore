@@ -1,0 +1,9 @@
+# Ignorar arquivos específicos
+package-lock.json
+package.json
+
+# Ignorar diretórios
+/node_modules
+/cypress
+
+# Ignorar arquivos temporários do sistema

@@ -2,9 +2,9 @@
 @media (max-width: 1024px) {
     .soft-cards-container {
         justify-content: center;
-        
+
     }
-    
+
 }
 
 @media (max-width: 768px) {
@@ -93,7 +93,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-       
+
     }
 
     .soft-card {
@@ -116,5 +116,12 @@
     .carousel-item {
         min-width: 250px;
         padding: 15px;
+    }
+
+    /* Footer */
+    #sectionsRodape {
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
     }
 }
