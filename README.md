@@ -39,7 +39,7 @@ portfolio/
 ## 🚀 Como Rodar o Projeto Localmente
 1. **Clone este repositório:**
    ```sh
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/Davi-Fernando/davi-portfolio
    ```
 2. **Acesse a pasta do projeto:**
    ```sh
